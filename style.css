@@ -1,0 +1,23 @@
+#redeem:hover{
+    background-color: black;
+    color: white;
+}
+.selectPart{
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    .footerPart{
+        display: none;
+    }
+    .selectPart{
+        display: block;
+
+    }
+    #head1{
+        text-align: center;
+    }
+    #head2{
+        text-align: center;
+    }
+}
